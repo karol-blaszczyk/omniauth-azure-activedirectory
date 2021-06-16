@@ -43,6 +43,7 @@ module OmniAuth
       #      provider :azure_activedirectory, ENV['AAD_KEY'], ENV['AAD_TENANT']
       #    end
       #
+      option :name, 'azure_activedirectory'
       args [:client_id, :tenant]
       option :client_id, nil
       option :tenant, nil
